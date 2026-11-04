@@ -1,0 +1,19 @@
+{
+  "name": "pixi-slot-hud",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A five-reel slot and casino HUD drawn entirely with PixiJS: no images, no sprites, keyboard navigable.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "pixi.js": "^8.22.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0",
+    "vite": "^7.1.0"
+  }
+}

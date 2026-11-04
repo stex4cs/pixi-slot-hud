@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PixiJS slot &amp; casino HUD</title>
+    <style>
+      html, body { margin: 0; min-height: 100%; background: #07060d; }
+      body { display: grid; place-items: center; min-height: 100vh; padding: 24px; box-sizing: border-box; }
+      #scena { width: min(100%, 1000px); display: flex; justify-content: center; }
+      #scena canvas { display: block; max-width: 100%; height: auto; border-radius: 24px; }
+    </style>
+  </head>
+  <body>
+    <div id="scena" aria-label="Casino HUD prototype"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
